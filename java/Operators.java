@@ -31,6 +31,8 @@ public class Operators {
         System.out.println(p!=q); // Not equal to
         // Logical Operators
         // && - logical AND, || - logial OR
+        boolean f = false; boolean t = true;
+        System.out.println(t&&f);
         // Ternary Operator: condition ? if true : if false
         /*
         SHORT CIRCUITING:
