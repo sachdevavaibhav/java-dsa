@@ -1,3 +1,4 @@
+package ch1;
 import java.util.Scanner;
 
 public class ArithmeticProgression {

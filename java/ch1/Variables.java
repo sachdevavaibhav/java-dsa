@@ -1,3 +1,4 @@
+package ch1;
 public class Variables {
     // instance variables
     int y = 21;

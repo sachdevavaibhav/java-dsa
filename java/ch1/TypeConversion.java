@@ -1,3 +1,4 @@
+package ch1;
 public class TypeConversion {
     public static void main(String[] args) {
         // widening or implicit type conversion

@@ -1,3 +1,4 @@
+package ch1;
 public class NonPrimitiveDataTypes {
     public static void main(String[] args) {
         // Non-primitive data types

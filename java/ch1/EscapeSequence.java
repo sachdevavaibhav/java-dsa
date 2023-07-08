@@ -1,3 +1,4 @@
+package ch1;
 public class EscapeSequence {
     public static void main(String[] args) {
         System.out.println("C:\\xyz\\abc.text");

@@ -1,3 +1,4 @@
+package ch1;
 public class AutoBoxing {
     public static void main(String[] args) {
         int x1 = 20;
