@@ -7,8 +7,5 @@ public class LastDigit {
         x = Math.abs(x);
         int ans = x%10;
         System.out.println(ans);
-        String str = s.nextLine();
-        System.out.println(str);
-        s.close();
     }
 }
