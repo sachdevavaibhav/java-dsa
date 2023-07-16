@@ -5,7 +5,7 @@ public class ArrayIntro {
         int[] a = {1,2,3}; // array is also an object in java.
         System.out.println(a[1]); //Java has 0 indexed array
         // Several ways to initalise an array object.
-        int[] b;
+        int[] b; // int b[]; (another way)
         b = new int[3]; //create an array of length 3.
         b[0] = 1;
         b[1] = 2;
