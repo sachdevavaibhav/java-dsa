@@ -8,7 +8,17 @@ public class DistinctCount {
     }
 
     static int distinct(int arr[], int n) {
-        // code here
-        return 1;
+        int count = 1;
+        for (int i=1;i<n;i++) {
+            boolean isDistinct = true;
+            for (int j=0; j<i;j++) {
+                if (arr[j] == arr[i]) {
+                    isDistinct = false;
+                    break;
+                }
+            }
+            if (isDistinct) count++;
+        }
+        return count;
     }
 }
