@@ -1,5 +1,6 @@
 package ch3;
 
+
 public class DecimalToBinary {
     public static void main(String[] args) {
         String binary = "";
