@@ -17,6 +17,7 @@ public class LambdaExpression {
         printCond(arr, x -> x%2==0); //the function passed in the second argument will become the implementation of abstract method of Predicate functional interface.
         /*
          * Lambda expressions basically express instances of functional interfaces (An interface with a single abstract method is called a functional interface). 
+         * Lamba expressions can be written in three ways:
          */
     }   
     
