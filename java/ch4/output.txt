@@ -1,5 +1,1 @@
-This is example text 5 times.
-This is example text 5 times.
-This is example text 5 times.
-This is example text 5 times.
-This is example text 5 times.
+Hello world to file handling in java.
