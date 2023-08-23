@@ -19,6 +19,13 @@ public class Complex {
      * - A constructor is a special method that is used to initialize a newly created object and is
      * called just after the memory is allocated for the object. In case of java the name of constructor
      * should be same as class name.
+     *
+     * What is encapsulation?
+     * - Encapsulation is a mechanism of wrapping the data (variables) and code acting on the data
+     * (methods) together as a single unit. In encapsulation, the variables of a class will be hidden
+     * from other classes (any only the variable which needs to be accessed by other classes will be made public),
+     * and can be accessed only through the methods of their current class.
+     *
      */
     int real, imag; // members of class
     Complex(int realNum, int imagNum) {
