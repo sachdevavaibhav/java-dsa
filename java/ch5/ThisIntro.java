@@ -19,6 +19,10 @@ public class ThisIntro {
      * It can be used to invoke or initiate current class constructor. It can be passed as an argument in
      * the method call. It can be passed as argument in the constructor call. It can be used to return
      * the current class instance.
+     *
+     * What is this()?
+     * - this() is used to invoke a constructor of the same class. It can be used to invoke current class
+     * constructor only. It is used to reuse the constructor. In other words, it is used for constructor
 */
     private int x, y;
     ThisIntro(int x, int y) {
