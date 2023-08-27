@@ -24,7 +24,7 @@ public class ThisIntro {
      * - this() is used to invoke a constructor of the same class. It can be used to invoke current class
      * constructor only. It is used to reuse the constructor. In other words, it is used for constructor
 */
-    private int x, y;
+    private int x, y; // accessible only in this class
     ThisIntro(int x, int y) {
         this.x = x;
         this.y = y;
