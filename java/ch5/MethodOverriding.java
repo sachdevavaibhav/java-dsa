@@ -1,12 +1,18 @@
 package ch5;
 
 public class MethodOverriding {
+    public static void print() {
+        System.out.println("This is a static method inside parent class");
+    }
     void func() {
         System.out.println("Inside parent class");
     }
 }
 
 class Child extends MethodOverriding {
+    public static void print() {
+        System.out.println("This is a static method inside child class");
+    }
     @Override
     void func() {
         System.out.println("Inside child class");
@@ -22,6 +28,9 @@ class TestMethodOverriding {
         MethodOverriding obj3 = new Child(); // Child class object is assigned to parent class reference variable - this is called dynamic method dispatch
         // this helps us to achieve run-time polymorphism - the method call is determined at run-time
         obj3.func(); // Inside child class
+        // obj3.print(); // This is a static method inside parent class because the object reference is of parent class
+        // Child obj4 = new Child();
+        // obj4.print(); // This is a static method inside child class because the object reference is of child class
     }
 }
 /*
