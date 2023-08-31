@@ -38,3 +38,29 @@ class TestInterface {
         Printable.printStatic();
     }
 }
+
+/*
+ * Similarities between abstract class and interface:
+ *  - We cannot create objects of both abstract class and interface.
+ *  - Both can have abstract methods and used to achieve abstraction.
+ *  - Reference variables of both abstract class and interface can point to the objects of its sub-classes.
+ *
+ * Differences between abstract class and interface:
+ *  - Interface cannot have constructors whereas abstract class can have constructors.
+ *  - Interface have all data members as public, static, and final whereas abstract class can have any type of data members.
+ *  - Interface has all methods as public whereas abstract class can have any type of methods.
+ *  - Interface allows multiple implementation and multiple inheritance.
+ *
+ * Points to remember:
+ *  - An abstract class can implement an interface.
+ *  - A normal class can extend an abstact class and can implement one or more interfaces.
+ *
+ * When to use abstract class?
+ *  - When we have logical is a relationship like Shape and Rectangle, Employee and SalesEmployee etc.
+ *  - When we need protected, private or default methods.
+ *  - When we need non-static and non-final data members.
+ * When to use interface?
+ *  -  When we need a functionality (or a set of functionalities) to be implemented by possibly unrelated classes.
+ *  -  Multiple implementations
+ *  -  Multiple inheritance.
+ */
