@@ -14,6 +14,8 @@ abstract class AbstractClass {
      * 10. We cannot declare abstract methods as static because static methods cannot be overridden.
      * 11. Reference variable of abstract class can point to the objects of its sub-classes.
      * 12. Abstract class can have data members, constructors, and non-abstract methods.
+     * 13. Abstract class can have final methods.
+     * 14. Abstract class can have static methods.
      */
     int color;
     int getColor() {return color;}
