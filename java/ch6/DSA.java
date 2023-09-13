@@ -9,4 +9,5 @@ public class DSA {
     // What is algorithm?
     // An algorithm is a set of instructions to solve a problem.
     // An algorithm is a finite set of instructions that, if followed, accomplish a particular task.
+    // An algorithm is a step-by-step procedure to solve a problem.
 }
