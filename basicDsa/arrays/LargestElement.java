@@ -2,6 +2,7 @@ package basicDsa.arrays;
 
 public class LargestElement {
     public static int findLargest(int[] arr) {
+        // returns the largest element
         // Time Complexity : O(n) - since the whole array is traversed atmost once.
         // Auxillary Space Complexity: O(1)
         int largestElement = arr[0];
