@@ -4,6 +4,10 @@ import java.util.Arrays;
 
 public class ReverseArray {
     public static int[] reverse(int[] arr) {
+        // Time Complexity - Theta(n/2) => Theta(n)
+        // Aux Space Complexity - Theta(1)
+        if (arr.length<=1) return arr;
+
         int start = 0;
         int end = arr.length-1;
 
