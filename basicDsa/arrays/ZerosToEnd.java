@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class ZerosToEnd {
     public static int[] moveZeros(int[] arr) {
+        // Time Complexity: Thetha(n)
+        // Aux Space Complexity: Thetha(1)
         int zero = -1;
 
         for (int i = 0; i < arr.length; i++) {
