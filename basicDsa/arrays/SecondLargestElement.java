@@ -27,9 +27,11 @@ public class SecondLargestElement {
         int[] test1 = {10, 20, 30, 35, 95};
         int[] test2 = {20, 10, 5, 8, 20};
         int[] test3 = {10, 10, 10, 10};
+        int[] test4 = {10, 2};
 
         System.out.println(findSecondLargest(test1));
         System.out.println(findSecondLargest(test2));
         System.out.println(findSecondLargest(test3));
+        System.out.println(findSecondLargest(test4));
     };
 }
