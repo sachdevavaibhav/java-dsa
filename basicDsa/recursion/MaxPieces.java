@@ -24,5 +24,8 @@ public class MaxPieces {
     public static void main(String[] args) {
         System.out.println(maxPieces(5, 4, 2, 6, 0));
         System.out.println(maxPieces(9, 2, 2, 2, 0));
+        System.out.println(maxPieces(17, 10, 11, 3, 0));
+        System.out.println(maxPieces(10, 9, 7, 11, 0));
+        System.out.println(maxPieces(5, 2, 1, 5, 0));
     }
 }

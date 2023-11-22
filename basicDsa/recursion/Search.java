@@ -6,12 +6,13 @@ public class Search {
         // Aux Space Complexity - Theta(n)
         if (l>r) return -1;
         if (arr[l] == x) return l;
+        if (arr[r] == x) return r;
 
-        return search(arr, l+1, r, x);
+        return search(arr, l+1, r-1, x);
     }
 
     public static void main(String[] args) {
         int[] testArr = {1,3,4,5,787,34};
-        System.out.println(search(testArr, 0, testArr.length-1, 5));
+        System.out.println(search(testArr, 0, testArr.length-1, 500));
     }
 }
